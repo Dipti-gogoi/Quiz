@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript Quiz</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <h1>Basic Javascript Quiz</h1>
+        <p>Test Your knowledge in <strong>Javascript Fundamentals</strong></p>
+      </header>
+      <section>
+          <div id="results"></div>
+          <form name="quizForm" onsubmit="return submitAnswers()">
+            <h3>1. Where is the correct place to insert a JavaScript?</h3>
+            <input type="radio" name="q1" value="a" id="q1a"> The &lt;head&gt section<br>
+            <input type="radio" name="q1" value="b" id="q1b"> Both the &lt;head&gt  section and the &lt;body&gt section are correct<br>
+            <input type="radio" name="q1" value="c" id="q1c"> The &lt;body&gt section<br>
+
+            <h3>2. The external JavaScript file must contain the &lt;script&gt tag. </h3>
+            <input type="radio" name="q2" value="a" id="q2a"> True<br>
+            <input type="radio" name="q2" value="b" id="q2b"> False<br>
+
+            <h3>3. Inside which HTML element do we put the JavaScript?</h3>
+            <input type="radio" name="q3" value="a" id="q3a"> &lt;script&gt<br>
+            <input type="radio" name="q3" value="b" id="q3b"> &lt;javascript&gt<br>
+            <input type="radio" name="q3" value="c" id="q3c"> &lt;js&gt<br>
+            <input type="radio" name="q3" value="d" id="q3d"> &lt;scripting&gt<br>
+
+            <h3>4. How can you detect the client's browser name?</h3>
+            <input type="radio" name="q4" value="a" id="q4a">client.navName<br>
+            <input type="radio" name="q4" value="b" id="q4b">navigator.appName<br>
+            <input type="radio" name="q4" value="c" id="q4c">browser.name<br>
+            
+            <h3>5. A variable in JavaScript must start with which special character?</h3>
+            <input type="radio" name="q5" value="a" id="q5a">@ <br>
+            <input type="radio" name="q5" value="b" id="q5b">#<br>
+            <input type="radio" name="q5" value="c" id="q5c">$<br>
+            <input type="radio" name="q5" value="d" id="q5d">No special character<br>
+            <br><br>
+            <input type ="submit" value="Submit Answers">
+        </form>
+      </section>
+      <footer>
+        <p>Copyright &copy; 2020, All Rights Reserved</p>
+        </footer>
+    </div>
+  </body>
+</html>
